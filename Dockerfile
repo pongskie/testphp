@@ -1,4 +1,4 @@
 FROM php
 COPY ./index.php ./
-EXPOSE 5000
-CMD ["php", "-S", "127.0.0.1:5000"]
+EXPOSE 3000
+CMD ["php", "-S", "localhost:3000"]
